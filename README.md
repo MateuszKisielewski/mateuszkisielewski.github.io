@@ -1,2 +1,2 @@
 # Palety-website
-final project
+Final project of website
