@@ -135,3 +135,44 @@ main{
   align-content: center;
   text-align: center;
 }
+
+hr{
+  border: solid 1px;
+}
+
+#brands{
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  justify-items: center;
+}
+
+#contact{
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: left;
+  background-color: #000000;
+  color: white;
+  height: 15vh;
+  font-size: 0.8vw;
+  /* custom padding and border in html file */
+}
+
+#socialmedia{
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  background-color: #009dff;
+  color: white;
+  height: 5vh;
+}
+
+a img{
+  width: 20%;
+  padding: 1%;
+}
