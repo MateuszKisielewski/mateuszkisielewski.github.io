@@ -17,15 +17,63 @@ body{
 
 header{
   /* background image */
+  position: relative;
   background-image: url('images/banner/baner_01.png');
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
   background-size: cover;
   height: 65vh;
 }
 
-main{
+#menu{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 5%;
+  height: 4vh;
+  background-color: #009dff;
+  opacity: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 3vw;
+}
 
+.menu_left .logo{
+  width: 10vw;
+  height: auto;
+  margin-left: 10vw;
+  margin-top: 11vh;
+}
+
+.menu_center{
+  display: flex;
+  gap: 2vw;
+}
+
+.menu_center a{
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1vw;
+  padding: 0 0.5vw;
+  transition: color 0.2s;
+}
+
+.menu_center a:hover {
+  color: white;
+}
+
+.menu_right{
+  display: flex;
+  gap: 0.5vw;
+  align-items: center;
+  margin-top: 0.4vh;
+  margin-right: 8vw;
+}
+
+.menu_right img{
+  width: 1.6vw; 
+  height: auto;
 }
 
 /* offer container */
@@ -120,7 +168,7 @@ main{
   width: 20vw;
 }
 
-#products_desc{
+#galery_desc{
   background-color: #ffffff;
   height: 8vw;
   justify-content: center;
@@ -140,7 +188,7 @@ main{
   justify-items: center;
 }
 
-#pic_desc{
+#products_desc{
   margin: 0.5vh auto 3vh auto;
   display: grid;
   grid-template-columns: repeat(15, 1fr);
