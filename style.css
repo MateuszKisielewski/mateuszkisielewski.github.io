@@ -50,7 +50,7 @@ header{
   width: 10vw;
   height: auto;
   margin-left: 7vw;
-  margin-top: 11vh;
+  margin-top: 12vh;
 }
 
 .menu_center{
@@ -183,7 +183,7 @@ header{
   align-content: center;
   text-align: center;
   margin: 0% 20% 0% 20%;
-  padding-top: 0%;
+  padding-top: 3%;
   padding-left: 3%;
   padding-bottom: 3%;
   padding-right: 3%;
@@ -239,6 +239,7 @@ hr{
   background-color: #009dff;
   color: white;
   height: 5vh;
+  padding: 0.5%;
 }
 
 a img{
