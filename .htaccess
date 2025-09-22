@@ -5,7 +5,6 @@ Deny from all
 </FilesMatch>
 
 RewriteEngine on
-RewriteRule home index.html
-RewriteRule produkty products.html
-RewriteRule nowosci news.html
-RewriteRule recenzje reviews.html
+RewriteRule strona główna index.html
+RewriteRule oferta offer.html
+RewriteRule kontakt contact.html
