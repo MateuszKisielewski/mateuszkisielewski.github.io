@@ -1,4 +1,4 @@
-/* website font */
+a/* website font */
 .noto-sans-main-font {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
@@ -195,6 +195,7 @@ header{
 
 #products_pic img{
   gap: 1%;
+  width: 4.8vw;
 }
 
 /* description of product icons */
@@ -207,12 +208,14 @@ header{
   text-align: center;
   margin-top: 0.5%;
   margin-bottom: 2%;
+  gap: 1.5%;
 }
 
 #products_desc section{
   max-width: 25vw;
   width: 6vw;
   gap: 1%;
+  font-size: 0.7vw;
 }
 
 /* bar with brands and hr */
