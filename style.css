@@ -194,7 +194,6 @@ header{
 }
 
 #products_pic img{
-  max-width: 110px;
   gap: 1%;
 }
 
@@ -211,12 +210,9 @@ header{
 }
 
 #products_desc section{
-  max-width: 110px;
-  gap: 1%;
-}
-
-#products_desc section{
+  max-width: 25vw;
   width: 6vw;
+  gap: 1%;
 }
 
 /* bar with brands and hr */
@@ -240,7 +236,7 @@ hr{
   text-align: left;
   background-color: #000000;
   color: white;
-  height: 15vh;
+  height: 12vh;
   font-size: 0.9vw;
   padding: 0 25%;
   padding-top: 3%;
@@ -332,15 +328,104 @@ hr{
 }
 
 /* view for 4k monitors */
-@media (max-width: 2160px){
+@media (min-width: 2561px) and (max-width: 3840px){
+  .above_menu {
+    display: flex;
+    gap: 1vw;
+    justify-content: flex-end;
+    font-size: 0.7vw;
+    margin-right: 10vw;
+    padding-top: 0.5%;
+  }
+
+  .offer_box img{
+    width: 6vw;
+  }
+
+  .offer_box{
+    width: 23vw;
+  }
+
+  .offer_box h2{
+    font-size: 1.3vw;
+  }
+
+  .offer_box p{
+    font-size: 0.8vw;;
+  }
+
+  #about h2{
+    font-size: 1.3vw; 
+  }
+
+  #about p{
+    font-size: 0.9vw;
+  }
+
+  #galery img{
+    width: 23vw;
+  }
+
+  #galery{
+    margin: 10vh 0 10vh 0;
+  }
+
+  #galery_desc h2{
+    font-size: 1.3vw;
+  }
+
+  #galery_desc p{
+    font-size: 0.8vw;
+  }
+
+  #products_pic{
+    gap: 2vw; 
+  }
+
+  #products_pic img{
+    width: 4.5vw;
+  }
+
+  #products_desc{
+    font-size: 0.6vw;
+    gap: 2%;
+  }
+
+  #brands img{
+    width: 10vw;
+  }
+
+  iframe{
+    height: 30vh;
+  }
 }
 
 /* view for 1080px monitors */
-@media (max-width: 1080px) {
+@media (min-width: 1025px) and (max-width: 1920px) {
+  #products_desc section{
+    font-size: 0.7vw !important;
+  }
+
+  .offer_box{
+    width: 23vw;
+  }
+
+  #galery img{
+    width: 23vw;
+  }
+
+  #galery{
+    margin: 9vh 0 9vh 0;
+  }
+
+  #brands{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
 }
 
 /* mobile view for tablets */
-@media (max-width: 1024px) {
+@media (min-width: 601px) and (max-width: 1024px) {
   body {
     font-size: 2vw;
   }
@@ -491,7 +576,7 @@ hr{
   #products_pic img,
   #products_desc section {
     max-width: 7vw;
-    width: 6.5vw !important;
+    width: 6.5vw;
     text-align: center;
   }
 
